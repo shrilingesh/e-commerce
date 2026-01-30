@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import './Nav.css';
 
 import { CiHeart } from "react-icons/ci";
@@ -25,9 +26,9 @@ function Nav({navGrid,query,handleInputChange}) {
 				<a href="#" >
 					<CiShoppingCart className="nav-icons"/>
 				</a>
-				<a href="#" >
-					<CiUser className="nav-icons"/>
-				</a>
+<button type="button" className="icon-btn" aria-label="profile">
+				<CiUser className="nav-icons"/>
+			</button>
 
 			</div> 
 		</nav>
