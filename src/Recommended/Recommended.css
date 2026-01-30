@@ -1,0 +1,30 @@
+.Recommended{
+    display:block;
+    /* margin-left:20em; */
+}
+
+.Recommended-title{
+    /* margin-left: 20rem; */
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.Recommended-flex{
+    display:flex;
+    /* margin-left: 20rem;  */
+}
+
+.Recommended-btns{
+    font-size:10.5px;
+    font-weight: lighter;
+
+    margin:5px;
+    border:transparent;
+
+    background-color: rgb(238, 231, 231);
+    color: #A5A391;
+    /* border-color: white; */
+}
+
+.Recommended-btns:hover{
+    transform: scale(1.1);
+}
